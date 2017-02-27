@@ -11,8 +11,6 @@ public class CurrentConditionsDisplay implements Observer, DisplayElement{
 	public CurrentConditionsDisplay(Observable observable){
 		
 		this.observable = observable;
-		observable.addObserver(this);
-		
 		
 	}
 	@Override
